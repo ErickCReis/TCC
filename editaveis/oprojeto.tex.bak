@@ -1,0 +1,57 @@
+\chapter{Desenvolvimento}
+
+Um kit desenvolvimento deve ser não só fácil de utilizar, mas também deve conter módulos relevantes que realmente sejam úteis na elaboração de um projeto, e para atender essas necessidades existes diversas soluções e opções no mercado.
+
+Para facilitar a organização deste capítulo, os sensores, atuadores e outros componentes serão separados na seguintes categorias: \textbf{Placa pricipal}, detalhando a base e o microcontrolador que controlá-ra os sheilds, \textbf{Informação}, onde estarão componentes que dão um feedback claro para o usuário, \textbf{Sensores},  \textbf{Atuadores} e \textbf{Conectividade}, elencando opções de comunicação com e sem fio versáteis e utilizadas no mercado.
+
+Vale ressaltar que a escolha do componentes têm alguns \textbf{restrições} que afetam diretamente as opções disponíveis para o desenvolvimento deste trabalho. O tipo de montagem do componente é uma das limitações já que os testes do projeto utilizando componentes no formado SMD (\textit{surface-mount device}) seria muito mais trabalhoso, além disso, como já citado, serão elencados apenas componentes e módulos disponíveis no mercado brasileiro visando reduzir custos de prototipagem.
+
+Neste capitulo somente será levantada as opções disponíveis e, no capítulo seguinte, as escolhas serão feitas levando em conta principalmente a dimensões dos componentes para se adequarem a plataforma.
+
+\section{Requisitos}
+
+\section{Proposta}
+
+A proposta em si consiste na elaboração de 4  shiels, ou booster packs, que se adaptam entre si na launchpad. Idealmente o usuário pode utilizar qualquer quantidade de shields diferentes e na ordem que preferir.
+
+Todas as shields conterão LEDs para identificação de funcionamento de seus seus componentes bem como uma interação básica com o usuário.
+
+O principal cuidado que foi tomado durante o desenvolvimento foi com relação utilização adequada dos portas do microcontrolador, pois elas são relativamente limitadas. O anexo~\ref{sec:pinout} foi utilizado como principal referencial para seleção de portas a serem utilizadas pelos módulos.
+
+\subsection{Placa principal}
+
+Na FGA o microcontrolador utilizado é da Texas Instruments, a empresa conta com uma grande variedade de modelos com diferentes características e funcionalidades, entretanto buscando manter o modelo já utilizado na disciplina será utilizado a família de microcontroladores MSP430.
+
+A Texas Instruments também disponibiliza um grande suporte para o desenvolvimento contando com datasheets detalhados e artigos sobre diversaos funcionalidades de seus produtos, tudo pode ser encontrado em \cite{TexasInstruments2019}.
+
+\subsection{MSP430FR5529}
+
+Essa linha de produtos tem como principal característica o baixo uso de energia, contando com modos que utilizam x Watts.
+
+Além de seu baixo consumo, este conjunto de microntroladores conta suporte periféricos digitais e analógicos integrados, o que facilita muito o desenvolvimento de projetos em geral.
+
+O modelo MSP430FR5529 (figura \ref{fig:launchpad}) será o modelo escolhido já que é o utilizado na launchpad.
+
+\subsection{Interfaces}
+
+Nessa shield o usuário terá a sua disposição diversas opções de interação projeto-usuário e vice-versa.
+
+A organização dos componentes selecionados devem seguir o modelo da figura \ref{fig:interface_pcb}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=.6\textwidth]{figuras/interface_pcb.png}
+    \caption{Modelo da shield de interface} Fonte: Autoria própria
+    \label{fig:interface_pcb}
+\end{figure}
+
+\subsection{Sensores}
+
+\subsection{Atuadores}
+
+\subsection{Conectividade}
+
+
+
+
+
