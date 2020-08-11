@@ -9,9 +9,6 @@
 #logs
 *.log
 
-#PDFs
-*.pdf
-
 *.lof
 *.lot
 *.bbl
@@ -19,3 +16,9 @@
 *.brf
 *.toc
 *.idx
+*.ilg
+*.bak
+*.synctex.gz
+*.fls
+*.ind
+*.fdb_latexmk

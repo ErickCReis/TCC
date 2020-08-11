@@ -1,9 +1,0 @@
-\begin{resumo}
-
-O ensino de microcontroladores é uma etapa extremamente importante no desenvolvimento de algumas engenharias, mas essencial para engenharia eletrônica. Facilitar esse processo, utilizando placas conhecidas com shields, é um dos principais objetivos deste trabalho. Apresentar uma visão geral do funcionamento dos microcontroladores e mostrar opções de módulos que estendem suas funcionalidades é como este trabalho se inicia. Além disso, também é feita uma pequena análise de opções já existentes no mercado e soluções que embasaram a construção deste projeto, que em grande maioria são inacessíveis à alunos de forma geral. Em seguida são feitas algumas escolhas que vão integrar as shields desenvolvidas neste trabalho. Como resultados tem-se o conjunto de funcionalidades a serem colocadas no projeto, esquemáticos, modelos de organização do layout, bem como as conexões de cada uma das shields. Por fim também é mostrado cronograma de tarefas que deve ser executado na continuação deste trabalho buscando diminuir os riscos.
-
- \vspace{\onelineskip}
-    
- \noindent
- \textbf{Palavras-chave}: MSP430, microcontroladores, shields, kit de desenvolvimento.
-\end{resumo}
